@@ -1,0 +1,16 @@
+<body class="show-bg">
+<div class="anagram">
+<h2>Anagrams for the Word</h2> 
+<h1><%= "#{@word}" %></h1>
+<% @anagrams.each do |anagram| %>
+<ul>
+<%= "#{anagram}" %>
+</ul>
+ <% end %>
+</div>
+<div class="options"> 
+<p>Want to create more anagrams?</p>
+<p><a href="/" class="button">Enter more words</a></p> 
+</div>
+</body>
+ 

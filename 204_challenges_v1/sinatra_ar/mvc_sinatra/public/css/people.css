@@ -1,0 +1,192 @@
+* {
+margin: 0;
+}
+
+html, body {
+height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+	position: relative;
+	display: table-cell;
+    vertical-align: middle;
+	background-image: url("/img/contemporary_china.png");
+	padding-top: 30px;
+	padding-bottom: 30px;
+	
+}
+
+.header {
+	height:60px;
+	color: #DB5461;
+	font-family: "Quando";
+	font-size: 36px;
+	text-align: center;
+}
+
+.container{
+	text-align: left;
+	width: 100%;
+	height: 100%;
+}
+
+.show {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto;
+width: 850px;
+margin: 0 auto;
+}
+
+.footer, .push {
+height: 4em;
+clear: both;
+}
+
+.footer {
+	font-family: "Montserrat", Serif; 
+	position:absolute;
+	bottom:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	height:20px;
+	width: 100%; 
+	border-top: 1px solid #3D5467;
+	text-align: center; 
+	background-color: #DB5461;
+}
+
+.landing {
+	text-align: left;
+	margin-left: auto;
+    margin-right: auto;
+	width: 70%; 
+}
+
+.error {
+	background-color: #DB5461;
+	font-family: "Montserrat";
+}
+
+.intro {
+	font-family: "Judson";
+	font-style: em; 
+	width: 600px;
+}
+ 
+.form {
+   border-radius: 7px;
+   font-family: "Judson", sans-serif;
+   line-height: 40px;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   }
+   
+.form_entry {
+font-family: "Judson", sans-serif;
+   line-height: 35px;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+}   
+
+.btn{
+  -webkit-border-radius: 30;
+  -moz-border-radius: 30;
+  border-radius: 25px;
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 20px;
+  background: #DB5461;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3D5467;
+  text-decoration: none;
+}
+
+.new-person {
+ padding-top: 20px;
+ font-family: "Roboto Slab", Sans-Serif;
+}
+
+
+.edit-person {
+	padding-top: 20px;
+	font-family: "Roboto Slab", Sans-Serif;
+	background: #fff;
+	margin: 45px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+h1 {
+	font-family: "Quando";
+	color: #3D5467;
+	border-bottom: 2px solid #3D5467;
+}
+ 
+h2 {
+	font-family: "Judson";
+	background-color: #8DE8B7;
+	font-size: 1.2 em;
+}
+
+h3 {
+	font-family: "Judson";
+	font-size: 1 em;
+}
+ 
+p {
+	font-family: "Open Sans";
+	margin:0 10px 10px;
+	width: 50%;
+	line-height:1.4;
+}
+
+a {
+	padding:5px; 
+	color:#DB5461;
+}
+
+a.button {
+  border-radius: 25px;
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 20px;
+  background: #DB5461;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+table, td, th { 
+	vertical-align: middle; border: none; 
+}
+
+th { 
+	border-bottom: 2px solid #3D5467; 
+}
+	
+table {
+  border-collapse: collapse;
+  border-spacing: 15px;
+}

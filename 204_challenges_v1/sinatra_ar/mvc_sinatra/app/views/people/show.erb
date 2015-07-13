@@ -1,0 +1,8 @@
+<div class="show">
+<h2><%= "#{@person.first_name} #{@person.last_name}" %></h2>
+<p>Birthdate: <%= "#{@person.birthdate.strftime("%m/%d/%Y")}" %></p>
+<h3><%= "#{@message}" %></h3>
+<p><br /></p>
+<p><a href="/people" class="button">Show me everyone else</a></p>
+</div>
+

@@ -1,0 +1,23 @@
+<div class="landing">
+<div class="error"><% if !@error.nil? %>
+<p><%= @error %></p>
+<% end %>
+</div>
+<div class="intro">
+St. Augustine of Hippo (A.D. 354–430) wrote <em>"Numbers are the Universal language offered by the deity to humans as confirmation of the truth."</em> Life Path Numbers purport to reveal insights about your innate capabilities and weaknesses. Your Life Path Number is derived from your birth date, and it is the most important number in your numerological chart. Life Path Numbers describe your traits and who you are at birth, and outlines the opportunities, challenges, and lessons you will encounter in this lifetime.
+</div>
+<form action="/" method="post">
+	<div class="form">
+		<label for="first_name">First Name</label>
+		<input type="text" name="first_name">
+		<br />
+		<label for="last_name">Last Name</label>
+		<input type="text" name="last_name">
+		<br />
+		<label for="birthdate">Birthdate</label>
+		<input type="date" name="birthdate" />
+		<p><br /></p>
+		<p><input class="btn" type="submit" value="Show me my Life Path Number"></p>
+	</div>
+</form>
+</div>
